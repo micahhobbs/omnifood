@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Omnifood</title>
-    <link rel="stylesheet" href="/vendors/css/normalize.css">
-    <link rel="stylesheet" href="/vendors/css/grid.css">
-    <link rel="stylesheet" href="/resources/css/style.css">
-    <link rel="stylesheet" href="/resources/css/queries.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="vendors/css/grid.css" type="text/css">
+    <link rel="stylesheet" href="vendors/css/animate.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/queries.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 </head>
 
@@ -17,23 +18,24 @@
     <header>
         <nav>
             <div class="row">
-                <img class="logo" src="/resources/img/logo-white.png" alt="Omnifood Logo">
+                <img class="logo" src="./resources/img/logo-white.png" alt="Omnifood Logo">
+                <img class="logo-black" src="./resources/img/logo.png" alt="Omnifood Logo">
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it Works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#works">How it Works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I’m hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll-to-plans" href="#">I’m hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
         </div>
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">
@@ -41,7 +43,7 @@
                 take care of that, we’re really good at it, we promise!
             </p>
 
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <ion-icon class="icon-big" name="infinite"></ion-icon>
                     <h3>Up to 365 days/year</h3>
@@ -74,22 +76,22 @@
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                    <img src="resources/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                    <img src="resources/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/3.jpg" alt="Chicken breast steak with vegetables">
+                    <img src="resources/img/3.jpg" alt="Chicken breast steak with vegetables">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/4.jpg" alt="Autumn pumpkin soup">
+                    <img src="resources/img/4.jpg" alt="Autumn pumpkin soup">
                 </figure>
             </li>
         </ul>
@@ -97,35 +99,35 @@
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/5.jpg" alt="Paleo beef steak with vegetables">
+                    <img src="resources/img/5.jpg" alt="Paleo beef steak with vegetables">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+                    <img src="resources/img/6.jpg" alt="Healthy baguette with egg and vegetables">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/7.jpg" alt="Burger with cheddar and bacon
+                    <img src="resources/img/7.jpg" alt="Burger with cheddar and bacon
 ">
                 </figure>
             </li>
             <li>
                 <figure class="meal-photo">
-                    <img src="/resources/img/8.jpg" alt="Granola with cherries and strawberries">
+                    <img src="resources/img/8.jpg" alt="Granola with cherries and strawberries">
                 </figure>
             </li>
         </ul>
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="works">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3 </h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img class="app-screen" src="/resources/img/app-iPhone.png" alt="Omnifood app on iPhone">
+                <img class="app-screen js--wp-2" src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -141,19 +143,19 @@
                     <p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
                 </div>
 
-                <a href="#" class="btn-app"><img src="/resources/img/download-app.svg" alt="App store button"></a>
-                <a href="#" class="btn-app"><img src="/resources/img/download-app-android.png" alt="Android store button"></a>
+                <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App store button"></a>
+                <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Android store button"></a>
             </div>
         </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
             <div class="col span-1-of-4">
-                <img src="/resources/img/lisbon-3.jpg" alt="Image of Lisbon" class="city-image">
+                <img src="resources/img/lisbon-3.jpg" alt="Image of Lisbon" class="city-image">
                 <h3>Lisbon</h3>
                 <div class="city-feature">
                     <ion-icon class="icon-small" name="person"></ion-icon>1600+ happy eaters
@@ -166,7 +168,7 @@
                 </div>
             </div>
             <div class="col span-1-of-4">
-                <img src="/resources/img/san-francisco.jpg" alt="Image of Lisbon" class="city-image">
+                <img src="resources/img/san-francisco.jpg" alt="Image of Lisbon" class="city-image">
                 <h3>San Francisco</h3>
                 <div class="city-feature">
                     <ion-icon class="icon-small" name="person"></ion-icon>3700+ happy eaters;
@@ -179,7 +181,7 @@
                 </div>
             </div>
             <div class="col span-1-of-4">
-                <img src="/resources/img/berlin.jpg" alt="Image of Lisbon" class="city-image">
+                <img src="resources/img/berlin.jpg" alt="Image of Lisbon" class="city-image">
                 <h3>Berlin</h3>
                 <div class="city-feature">
                     <ion-icon class="icon-small" name="person"></ion-icon>2300+ happy eaters
@@ -192,7 +194,7 @@
                 </div>
             </div>
             <div class="col span-1-of-4">
-                <img src="/resources/img/london.jpg" alt="Image of Lisbon" class="city-image">
+                <img src="resources/img/london.jpg" alt="Image of Lisbon" class="city-image">
                 <h3>London</h3>
                 <div class="city-feature">
                     <ion-icon class="icon-small" name="person"></ion-icon>1600+ happy eaters
@@ -217,29 +219,29 @@
                     Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver.
                     Now that I got used to it, I couldn't live without my daily meals!
                 </blockquote>
-                <cite><img src="/resources/img/customer-1.jpg" alt="First customer photo">Alberto Duncan</cite>
+                <cite><img src="resources/img/customer-1.jpg" alt="First customer photo">Alberto Duncan</cite>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
                     Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but
                     no one comes even close to Omifood. Me and my family are so in love!
                 </blockquote>
-                <cite><img src="/resources/img/customer-2.jpg" alt="First customer photo">Joana Silva</cite>
+                <cite><img src="resources/img/customer-2.jpg" alt="First customer photo">Joana Silva</cite>
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
                     I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood.
                     Best food delivery service in the Bay Area. Keep up the great work!
                 </blockquote>
-                <cite><img src="/resources/img/customer-3.jpg" alt="First customer photo">Milton Chapman</cite>
+                <cite><img src="resources/img/customer-3.jpg" alt="First customer photo">Milton Chapman</cite>
             </div>
         </div>
     </section>
 
-    <section class="section-plans">
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today </h2>
-            <div class="row">
+            <div class="row js--wp-4">
                 <div class="col span-1-of-3">
                     <div class="plan-box">
                         <div>
@@ -393,7 +395,7 @@
                     <div class="col span-1-of-3">
                         <label for="button">&nbsp;</label>
                     </div>
-                    <div class="col span-2-of-3">
+                    <div class="col span-2-of-3 form-button-div">
                         <input type="submit" value="Send it!"></input>
                     </div>
                 </div>
@@ -423,7 +425,6 @@
                     <li><a href="#"><ion-icon name="logo-facebook" class="facebook-icon"></ion-icon></a></li>
                     <li><a href="#"><ion-icon name="logo-twitter" class="twitter-icon"></ion-icon></a></li>
                     <li><a href="#"><ion-icon name="logo-instagram" class="instagram-icon"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon name="logo-googleplus" class="googleplus-icon"></ion-icon></a></li>
                 </ul>
             </div>
             <div class="row">
@@ -432,7 +433,12 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="/resources/js/script.js"></script>
 
 </body>
 
