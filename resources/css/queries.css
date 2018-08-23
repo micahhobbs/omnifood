@@ -79,7 +79,22 @@
         font-size: 120%;
         margin-right: 15px;
       }
+    
+      .form-button-div {
+        text-align: center;
+        margin-right: 0;
+    }
 
+      .footer-nav {
+        width: 100%;
+    }   
+
+    .footer-nav li {
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+        font-size: 200%;
+    }
 
 
 /* Small phones: from 0 to 480px */
