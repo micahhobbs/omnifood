@@ -111,6 +111,7 @@
     cite { 
         margin-top: 5px;
         margin-bottom: 25px; 
+        float: right;
     }
 
     .section-testimonials { padding-bottom: 5px; }
