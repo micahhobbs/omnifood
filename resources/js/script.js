@@ -115,22 +115,19 @@ $(document).ready(function() {
 
   /* Mobile Nav */
 
-  // $(".js--nav-icon").click(function() {
-  //   const nav = $(".js--main-nav");
-  //   const icon = $(".nav-icon ion-icon");
+  $(".js--nav-icon").click(function() {
+    let nav = $(".js--main-nav");
+    let icon = $(".js--nav-icon i");
 
-  //   nav.slideToggle(200);
+    nav.slideToggle(200);
 
-    
-    /* TODO: 
-        - Figure this out given ion icon uses names now not classes
-        - Maybe still select by class by adding the class
-        - And then change the attribute 
-        - How will that work for the case when the class doesnt exist? 
-
-    */
-    
-    
-  // });
+    if(icon.hasClass('ion-ios-menu')) {
+      icon.addClass('ion-ios-close');
+      icon.removeClass('ion-ios-menu');
+    } else {
+      icon.addClass('ion-ios-menu');
+      icon.removeClass('ion-ios-close');
+    }
+  });
 
 });

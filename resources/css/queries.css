@@ -88,9 +88,16 @@
     margin: 0 0 4% 0;
   }
 
-  /* .main-nav {
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .main-nav {
     display: none;
-  } */
+  }
 
   .mobile-nav-icon {
     display: inline-block;
@@ -129,14 +136,7 @@
   }
 
   .sticky .mobile-nav-icon i {
-    color: pink;;
-  }
-
-  h1 {
-    font-size: 180%;
-  }
-  h2 {
-    font-size: 150%;
+    color: #555;
   }
 
   .long-copy {

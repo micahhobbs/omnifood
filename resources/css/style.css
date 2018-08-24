@@ -218,9 +218,9 @@ header {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url(/resources/css/img/hero.jpg);
+    url(/resources/css/img/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/resources/css/img/hero.jpg);
+    url(/resources/css/img/hero-min.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -284,6 +284,22 @@ header {
 }
 
 /*=============================================
+=            MOBILE NAV            = 
+=============================================*/
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 250%;
+  color: #fff;
+}
+
+/*=============================================
 =            STICKY NAV            =
 =============================================*/
 
@@ -313,23 +329,6 @@ header {
 }
 .sticky .logo-black {
   display: block;
-}
-
-/*=============================================
-=            MOBILE NAV            =
-=============================================*/
-
-.mobile-nav-icon {
-  float: right;
-  margin-top: 30px;
-  cursor: pointer;
-  display: none;
-  color: #fff;
-  font-size: 200%;
-}
-
-.mobile-nav-icon:hover {
-  color: #e67e22;
 }
 
 /*=============================================
@@ -469,9 +468,9 @@ header {
       from(rgba(0, 0, 0, 0.8)),
       to(rgba(0, 0, 0, 0.8))
     ),
-    url(/resources/css/img/back-customers.jpg);
+    url(/resources/css/img/back-customers-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(/resources/css/img/back-customers.jpg);
+    url(/resources/css/img/back-customers-min.jpg);
   background-position: center;
   background-size: cover;
   color: white;
